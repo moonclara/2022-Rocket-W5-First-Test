@@ -15918,6 +15918,16 @@ ul {
           align-items: center;
 }
 
+.banner a img:hover {
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+
 .about .exp {
   max-width: 384px;
   margin: 0 auto;
@@ -15947,6 +15957,15 @@ ul {
 
 .work {
   gap: 48px 24px;
+}
+
+.work img:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 
 @media (max-width: 992px) {
